@@ -3,8 +3,9 @@ import { sleep } from 'k6';
 import { error_check } from '../check/check.js';
 import { scenario } from 'k6/execution';
 
-import { upload_16_files } from '../api/16_files.js';
-import { upload_16_files_v2 } from '../api/16_files_v2.js';
+import { open_upload_16_files } from '../api/16_files.js';
+import { portal_upload_16_files_v2 } from '../api/16_files_v2.js';
+import { lookup } from '../api/lookup.js';
 
 
 
@@ -12,9 +13,9 @@ import { upload_16_files_v2 } from '../api/16_files_v2.js';
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  //response = upload_16_files()
-  response = upload_16_files_v2()
-  
+  response = open_upload_16_files()
+  //response = portal_upload_16_files_v2()
+  //response = lookup()
   error_check(response);
   sleep(1)
 }
