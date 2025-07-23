@@ -26,9 +26,9 @@ export function upload_16_files_v2() {
     'Content-Type': 'multipart/form-data; boundary=' + formData.boundary,
   };
 
-  const res = http.post(url, formData.body(), { headers });
+  const res = http.post(url, formData.body(), { headers, timeout: '240s' });
 
-  console.log(`Status: ${res.status}`);
-  console.log(res.body);
+  // console.log(`Status: ${res.status}`);
+  // console.log(res.body);
   return res;
 }
