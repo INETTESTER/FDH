@@ -7,7 +7,7 @@ formData.append('type', 'txt');
 const filenames = [
   'ADP.TXT', 'AER.TXT', 'CHA.TXT', 'CHT.TXT',
   'DRU.TXT', 'IDX.TXT', 'INS.TXT', 'IOP.TXT',
-  'IPD.TXT', 'IRF.TXT', 'LVD.TXT', 'ODX.TXT',
+  'IPD.TXT', 'IRF.TXT', 'LABFU.TXT', 'ODX.TXT',
   'OOP.TXT', 'OPD.TXT', 'ORF.TXT', 'PAT.TXT',
 ];
 
