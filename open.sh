@@ -5,10 +5,10 @@ IP_ADDRESS=$(ipconfig | findstr "IPv4" | sed -E 's/.*: ([0-9]+\.[0-9]+\.[0-9]+\.
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="portal_upload_16_files_v2" 
+                     API="lookup" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1SrR8mp46hM_1Eq9VIrMdRF0DTPzU3_XHHiZUGb1CsuQ/edit?gid=1610289956#gid=1610289956" 
                      id="$IP_ADDRESS"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="5000";            #จำนวนผู้ใช้งาน
+                     user="10000";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
                      cid="1"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)

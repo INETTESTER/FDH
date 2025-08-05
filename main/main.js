@@ -14,8 +14,8 @@ import { lookup } from '../api/lookup.js';
 
 export default function () {    //เรียกใช้ API ใน export default function
   //response = open_upload_16_files()
-  response = portal_upload_16_files_v2()
-  //response = lookup()
+  //response = portal_upload_16_files_v2()
+  response = lookup()
   error_check(response);
   sleep(1)
 }
