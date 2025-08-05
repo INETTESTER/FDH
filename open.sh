@@ -5,7 +5,7 @@ IP_ADDRESS=$(ipconfig | findstr "IPv4" | sed -E 's/.*: ([0-9]+\.[0-9]+\.[0-9]+\.
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="open_upload_16_files" 
+                     API="portal_upload_16_files_v2" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1SrR8mp46hM_1Eq9VIrMdRF0DTPzU3_XHHiZUGb1CsuQ/edit?gid=1610289956#gid=1610289956" 
                      id="$IP_ADDRESS"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="5000";            #จำนวนผู้ใช้งาน
