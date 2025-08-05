@@ -6,7 +6,7 @@
 ##########################################################################
                      API="open_upload_16_files" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1SrR8mp46hM_1Eq9VIrMdRF0DTPzU3_XHHiZUGb1CsuQ/edit?gid=1610289956#gid=1610289956" 
-                     id="20"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     id="21"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="2500";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
                      scenario="1"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
