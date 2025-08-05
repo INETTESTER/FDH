@@ -1,2 +1,4 @@
 git fetch origin  # ดึงข้อมูลล่าสุดจาก remote repository
 git reset --hard origin/main  # รีเซ็ตให้เหมือนกับเวอร์ชันล่าสุดใน GitHub
+C:\Windows\System32\drivers\etc
+203.151.10.17 fdh.moph.go.th

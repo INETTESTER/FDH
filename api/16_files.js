@@ -29,6 +29,6 @@ export function open_upload_16_files() {
   const res = http.post(url, formData.body(), { headers, timeout: '240s' });
 
   // console.log(`Status: ${res.status}`);
-  //console.log(res.body);
+  console.log(res.body);
   return res;
 }
